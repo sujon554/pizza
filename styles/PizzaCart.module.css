@@ -1,0 +1,40 @@
+.container {
+    width: 22%;
+    padding: 20px;
+    padding: 20px 40px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+   
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(187, 34, 7);
+}
+.Price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(7, 0, 0);
+}
+.desc {
+    color: rgb(17, 0, 15);
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .Price, .desc {
+        font-size: 25px;
+    }
+}
