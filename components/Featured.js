@@ -2,7 +2,7 @@ import styles from "../styles/Featured.module.css";
 import Image from "next/image";
 import { useState } from "react";
 
-const featured = () => {
+const Featured = () => {
   const [index, setIndex] = useState(0);
   const images = [
     "/img/featured.png",
@@ -49,4 +49,4 @@ const featured = () => {
   );
 };
 
-export default featured;
+export default Featured;
